@@ -39,6 +39,6 @@ public class ReadjustmentServiceTest {
 
         readjustmentService.grantReadjustment(employee, Performance.EXCELLENT);
 
-        assertEquals(new BigDecimal("1300.00"), employee.getSalary());
+        assertEquals(new BigDecimal("1200.00"), employee.getSalary());
     }
 }
